@@ -1,0 +1,19 @@
+# One environment for all three parts of the repository.
+# Python 3.10 to 3.13; on Windows, Python 3.10 to 3.12 (see dbscan below).
+numpy>=1.26 ; sys_platform != "win32"
+numpy>=1.26,<2 ; sys_platform == "win32"
+scipy>=1.11
+pandas>=2.0,<3
+openpyxl>=3.1
+olefile>=0.46
+h5py>=3.9
+statsmodels>=0.14
+ruptures>=1.1.9
+numba>=0.59
+tifffile>=2023.7
+psutil>=5.9
+# Exact grid DBSCAN (wangyiqiu/dbscan-python), used by smtirf/mangotrace only. Linux and
+# macOS: the current release has prebuilt wheels. Windows: the newest prebuilt wheel is
+# 0.0.12, built for NumPy 1.x, hence NumPy below 2 there.
+dbscan>=1.0 ; sys_platform != "win32"
+dbscan==0.0.12 ; sys_platform == "win32"

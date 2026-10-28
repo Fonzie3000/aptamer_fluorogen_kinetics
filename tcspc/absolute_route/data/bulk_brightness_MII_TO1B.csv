@@ -1,0 +1,12 @@
+"# Bulk steady-state emission, Mango II + TO1-B, donor-only (no Cy5)."
+"# Cary Eclipse, ex 510 nm, peak intensity integrated over a 10 nm window at 535 nm."
+# Blank-subtracted. Free dye in buffer reads at buffer level under these conditions.
+"# STILL TO CONFIRM: RNA/dye concentrations, and whether saturating. See brief section 5."
+stem_bp,intensity_au,sd_au,n_reps
+6,246.378,10.398,
+8,263.2713,9.6854,
+10,283.3777,3.2359,
+12,297.5241,9.3637,
+14,257.7481,3.5304,
+16,264.7147,3.0186,
+18,289.8074,5.1539,

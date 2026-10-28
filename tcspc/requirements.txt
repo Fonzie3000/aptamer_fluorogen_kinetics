@@ -1,0 +1,6 @@
+# TCSPC and bulk analysis. Python 3.10 to 3.13.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0,<3
+openpyxl>=3.1
+olefile>=0.46

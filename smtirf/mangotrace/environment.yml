@@ -1,0 +1,19 @@
+# Conda environment for Linux and macOS. On Windows use requirements.txt with pip.
+name: mangotrace
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - numpy
+  - scipy
+  - pandas
+  - numba
+  - tifffile
+  - h5py
+  - psutil
+  - pip
+  - pip:
+      - ruptures>=1.1.9
+      # Linux and macOS only. On Windows, use pip with requirements.txt, which
+      # installs the prebuilt dbscan 0.0.12 together with NumPy below 2.
+      - dbscan>=1.0

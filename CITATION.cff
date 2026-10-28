@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the thesis below."
+title: "aptamer_fluorogen_kinetics: fluorescence lifetime and single-molecule binding kinetics of the Mango II RNA aptamer with TO1-B and SALAD1"
+type: software
+authors:
+  - family-names: Liu
+    given-names: Fangqi
+    orcid: "https://orcid.org/0009-0002-3826-6480"
+    affiliation: "MRC Laboratory of Medical Sciences and Imperial College London"
+repository-code: "https://github.com/Fonzie3000/aptamer_fluorogen_kinetics"
+license: MIT
+keywords:
+  - RNA Mango
+  - fluorogenic aptamer
+  - TCSPC
+  - fluorescence lifetime
+  - single-molecule TIRF
+  - binding kinetics
+  - change-point detection
+preferred-citation:
+  type: thesis
+  title: "Fluorogenic RNA Mango Aptamers: Single-Molecule Characterisation and Applications in CRISPR-Mediated Genomic Imaging"
+  thesis-type: "PhD thesis"
+  authors:
+    - family-names: Liu
+      given-names: Fangqi
+      orcid: "https://orcid.org/0009-0002-3826-6480"
+  institution:
+    name: "Imperial College London"
+  year: 2026

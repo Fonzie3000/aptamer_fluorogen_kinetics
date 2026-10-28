@@ -1,0 +1,25 @@
+# Private material: notes, figure code and report builders.
+# Kept on this computer only and never uploaded.
+git_ignore/
+
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# results, written beside the code when it runs
+tcspc/code/out/
+tcspc/absolute_route/results/
+smtirf/kinetics/tables/
+smtirf/kinetics/cache/
+smtirf/kinetics/methods.md
+smtirf/kinetics/caveats.md
+smtirf/mangotrace/_workspace/
+
+# single-molecule data
+*.h5
+*.tif
+*.tiff

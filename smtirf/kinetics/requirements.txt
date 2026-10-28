@@ -1,0 +1,7 @@
+# Single-molecule kinetic analysis. Python 3.10 to 3.13.
+numpy>=1.26
+scipy>=1.11
+pandas>=2.0,<3
+h5py>=3.9
+statsmodels>=0.14
+ruptures>=1.1.9

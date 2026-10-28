@@ -1,0 +1,6 @@
+# Data files are kept byte for byte on every system, with no line-ending conversion.
+tcspc/data/** -text
+tcspc/absolute_route/data/** -text
+*.das binary
+*.xlsx binary
+*.h5 binary

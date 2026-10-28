@@ -1,0 +1,4 @@
+complex,tau_mean_ns,tau_mean_err,tau1_ns,tau1_err,tau2_ns,tau2_err,n_exp,QY,source
+Mango II + TO1-Biotin,1.51,0.06,0.52,0.02,2.33,0.12,2,0.21,Trachman 2018 Biochemistry 57:3544
+Mango II A22U + TO1-Biotin,1.92,0.03,0.72,0.01,2.904,0.001,2,,Trachman 2018 Biochemistry 57:3544
+Mango I + TO1-Biotin,,,,,,,,0.14,Trachman 2018 Biochemistry 57:3544
